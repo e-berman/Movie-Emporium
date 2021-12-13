@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.home, .buyrentmovie, .streammovie, .orderpage, .categories {
+  display: flex;
+  height: 20vh;
+  justify-content: center;
+  font-size: 1rem;
+  padding-top: 50px;
+}
+
+.fade-in {
+  transition: opacity 1s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.fader {
+  text-align: center;
+}
+
+.image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.each-fade {
+  width: 100%;
+}
+
+.each-fade > div img {
+  width: 20%;
+  height: 25%;
+  justify-content: center;
+}
+
+.table-title {
+  display: flex;
+  justify-content: center;
+  margin-block-start: 35px;
+}
+
+.search-container {
+  display:grid;
+  justify-content: center;
+  margin-block-start: 75px;
+  padding-bottom: 20px;
+  box-shadow: 0px 24px 3px -24px;
+}
+
+.form-container {
+  display:grid;
+  justify-content: center;
+  margin-block-start: 20px;
+}
+
+.table-container {
+  border-collapse: collapse;
+  margin-block-start: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 60%;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table-container thead tr {
+  background-color: rgb(25, 14, 65);
+  color: #ffffff;
+  text-align: left;
+
+}
+
+.table-container th, td {
+  padding: 8px 15px;
+}
+
+.table-container tbody, tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table-container tbody, tr:last-of-type {
+  border-bottom: 2px solid rgb(25, 14, 65);
+}
+
+label{
+  display: inline-block;
+  padding: 1rem 0rem 0.5rem;
+}
+input {
+  display: inline-block;
+  border: 1.5px solid;
+  padding: 0.5em;
+  width: 350px;
+  border-radius: 25px;
+}
+
+.submit-button {
+  border-radius: 25px;
+  margin-block-start: 25px;
+}
+
+.search-label {
+  display: inline-block;
+  text-align: center;
+  padding: 1rem 0rem 0.5rem;
+}
