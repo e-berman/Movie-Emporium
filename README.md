@@ -1,5 +1,6 @@
 # Movie-Emporium
-Simulates a hybrid stream/buy/rent movie service.
+
+Simulates a hybrid stream/buy/rent movie service. Utilizes raw MySQL queries.
 
 To start:
 
