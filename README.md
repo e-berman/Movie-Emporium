@@ -3,13 +3,15 @@ Simulates a hybrid stream/buy/rent movie service.
 
 To start:
 
-1. Input required database credentials in movie_controller.mjs.
+1. Install required dependencies listed below (i.e. npm i axios@0.24.0 --save)
 
-2. The data definition for the SQL database is listed in the movie_app_db/data_definition.sql. Create the defined tables before running the app.
+2. Input required database credentials in movie_controller.mjs.
 
-2. cd into the movie_app_db directory, and run **npm start**
+3. The data definition for the SQL database is listed in the movie_app_db/data_definition.sql. Create the defined tables before running the app.
 
-3. cd into the movie_app_react directory, and run **npm start**
+4. cd into the movie_app_db directory, and run **npm start**
+
+5. cd into the movie_app_react directory, and run **npm start**
 
 ## Required Dependencies
 ### For movie_app_react
