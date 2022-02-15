@@ -7,12 +7,9 @@ Simulates a hybrid stream/buy/rent movie service.
 - body-parser
 - nodemon
 - prop-types
-- react
 - react-slideshow-image
 - react-icons
-- react-dom
 - react-router-dom
-- web vitals
 
 ### For movie_app_db
 - body-parser
