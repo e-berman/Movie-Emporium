@@ -63,8 +63,6 @@ function CategoriesPage() {
                     {categoriesList.map((category) => (
                         <tr key={category.category_id}>
                             <td>{category.category_id}</td>
-                            {/* <td>{category.smovie_id}</td>
-                            <td>{category.pmovie_id}</td> */}
                             <td>{category.genre}</td>
                             <td>
                                 <button type="submit" onClick={() => {
