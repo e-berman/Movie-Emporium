@@ -98,8 +98,6 @@ function BuyRentMovie() {
                     }).map((movie) => (
                         <tr key={movie.pmovie_id}>
                             <td>{movie.pmovie_id}</td>
-                            {/* <td>{movie.order_id}</td>
-                            <td>{movie.category_id}</td> */}
                             <td>{movie.title}</td>
                             <td>{movie.year_released}</td>
                             <td>
