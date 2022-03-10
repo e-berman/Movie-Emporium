@@ -92,8 +92,6 @@ function SubscriptionPage() {
                 <thead>
                     <tr>
                         <th>Subscription ID</th>
-                        {/* <th>Customer ID</th>
-                        <th>Stream Movie ID</th> */}
                         <th>Subscription Level</th>
                         <th>Access To Rent</th>
                         <th>Access To Buy</th>
@@ -106,8 +104,6 @@ function SubscriptionPage() {
                     {subscriptionList.map((subscription) => (
                         <tr key={subscription.subscription_id}>
                             <td>{subscription.subscription_id}</td>
-                            {/* <td>{subscription.customer_id}</td>
-                            <td>{subscription.smovie_id}</td> */}
                             <td>{subscription.subscription_level}</td>
                             <td>{subscription.access_to_rent}</td>
                             <td>{subscription.access_to_buy}</td>
