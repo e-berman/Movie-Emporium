@@ -65,7 +65,6 @@ function OrderPage() {
                 <thead>
                     <tr>
                         <th>Order ID</th>
-                        {/* <th>Customer ID</th> */}
                         <th>Buy Price</th>
                         <th>Rent Price</th>
                         <th></th>
@@ -76,7 +75,6 @@ function OrderPage() {
                     {orderList.map((order) => (
                         <tr key={order.order_id}>
                             <td>{order.order_id}</td>
-                            {/* <td>{order.customer_id}</td> */}
                             <td>{order.buy_price}</td>
                             <td>{order.rent_price}</td>
                             <td>
