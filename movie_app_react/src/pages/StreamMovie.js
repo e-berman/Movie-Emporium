@@ -36,11 +36,6 @@ function StreamMovie() {
 
     return (
         <>
-            {/* <div className="search-container">
-                <label>Search for a Streamable Movie</label>
-                
-                <button className='submit-button' type='submit' >Search</button>
-            </div> */}
             <div className='table-title'>
                 <h2>Enter Streamable Movie Data Below</h2>
             </div>
@@ -82,8 +77,6 @@ function StreamMovie() {
                 <thead>
                     <tr>
                         <th>Stream Movie ID</th>
-                        {/* <th>Subscription ID</th>
-                        <th>Category ID</th> */}
                         <th>Title</th>
                         <th>Year Released</th>
                         <th></th>
@@ -102,8 +95,6 @@ function StreamMovie() {
                     }).map((movie) => (
                         <tr key={movie.smovie_id}>
                             <td>{movie.smovie_id}</td>
-                            {/* <td>{movie.subscription_id}</td>
-                            <td>{movie.category_id}</td> */}
                             <td>{movie.title}</td>
                             <td>{movie.year_released}</td>
                             <td>
