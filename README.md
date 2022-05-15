@@ -16,6 +16,8 @@ To start:
 
 ## Required Dependencies
 ### For movie_app_react
+
+```
 - axios@0.24.0
 - body-parser@1.19.0
 - nodemon@2.0.15
@@ -23,10 +25,14 @@ To start:
 - react-slideshow-image@3.6.0
 - react-icons@4.3.1
 - react-router-dom@5.3.0
+```
 
 ### For movie_app_db
+
+```
 - body-parser@1.19.0
 - cors@2.8.5
 - express@4.17.1
 - mysql@2.18.1
 - nodemon@2.0.15
+```
